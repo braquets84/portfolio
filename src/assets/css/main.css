@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  font-family: 'Lexend Deca', sans-serif;
+}
+
 .height-70vh{
   height:70vh;
 }
