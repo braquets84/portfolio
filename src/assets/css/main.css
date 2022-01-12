@@ -38,3 +38,36 @@
 .item:hover, .item:active{
  flex: 7;  
 }
+
+.grid {
+  padding:5%;
+  margin:0;
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+
+.item2{
+  flex: 1 0 40vh;
+  height: 40vh;
+  flex-basis: content;
+  min-width:0;
+  overflow:hidden;
+  max-width:100%;
+}
+
+img {
+  height:100%;
+  max-width:100%;
+  min-width:100%;
+  border-radius:8px;
+  object-fit: cover;
+  vertical-align: bottom;
+  filter: grayscale();
+  transition: filter 0.4s ease-in-out;
+}
+
+img:hover{
+  filter:none;
+  transition: filter 0.4s ease-in-out;
+}
