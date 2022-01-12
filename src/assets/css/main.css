@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .flex7{
+    flex:7;
+  }
+  .flex20{
+    flex:20;
+  }
+}
+
 *{
   font-family: 'Lexend Deca', sans-serif;
 }
@@ -37,10 +46,6 @@
   background-size: cover;
   background-repeat: none;
   transition: flex 0.8s ease;
-}
-
-.item:hover, .item:active{
- flex: 7;  
 }
 
 .grid {
