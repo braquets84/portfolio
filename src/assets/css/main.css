@@ -2,6 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-h1 {
-  color: lch(40% 68.8 34.5 / 50%);
+.height-70vh{
+  height:70vh;
+}
+
+.item-1 { 
+  background-image: url('https://source.unsplash.com/random/1280x1024');
+}
+
+.item-2 { 
+  background-image: url('https://source.unsplash.com/random/1280x1025');
+}
+
+.item-3 { 
+  background-image: url('https://source.unsplash.com/random/1280x1026');
+}
+
+.item-4 { 
+  background-image: url('https://source.unsplash.com/random/1280x1027');
+}
+
+.item-5 { 
+  background-image: url('https://source.unsplash.com/random/1280x1028');
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+}
+
+.item:hover, .item:active{
+ flex: 7;  
 }
